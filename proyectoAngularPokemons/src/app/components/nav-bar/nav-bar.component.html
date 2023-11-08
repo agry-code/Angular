@@ -1,0 +1,10 @@
+<mat-toolbar color="warn">
+    <button mat-button [matMenuTriggerFor]="afterMenu"><mat-icon>menu</mat-icon></button>
+    <!-- menu de angular material utilizado para el routing -->
+    <mat-menu #afterMenu="matMenu" xPosition="after">
+        <button mat-menu-item routerLink="home">Home <mat-icon>home</mat-icon></button>
+        <button mat-menu-item routerLink="pokemon-list">Pokémon List<mat-icon>filter_list</mat-icon></button>
+        <button mat-menu-item routerLink="generations">Generations<mat-icon>filter_list</mat-icon></button>
+    </mat-menu>
+    <span>PokéAPI</span>
+</mat-toolbar>

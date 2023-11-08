@@ -1,0 +1,19 @@
+img {
+    max-width: 100%;
+}
+  .card {
+    font-size: 18px;
+    padding: 20px;
+    width: 300px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 20px 0 #111;
+  }
+
+
+
+
+  .aditional {
+    color: gray;
+  }
+
+

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    background: url(https://st2.depositphotos.com/3213441/12022/v/450/depositphotos_120226496-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg);
+    background-size:auto;
+    background-repeat: repeat;
+  }
+    
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family:'pokemon';
+    src: url(./assets/fonts/PokemonSolid.ttf) format("truetype");
+}
